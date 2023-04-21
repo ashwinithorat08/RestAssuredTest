@@ -25,7 +25,7 @@ public class UserEndpoints {
 		{
 			Response response=
 			given()
-			.pathParam("username", userName)	//path parameter	"username" should same of routes.java class url's path parameter	Get_url=base_url+"/v2/user/{username}";
+			.pathParam("username", userName)	//path parameter"username" should same of routes.java class url's path parameter	Get_url=base_url+"/v2/user/{username}";
 			
 			.when()
 			.get(Routes.Get_url);

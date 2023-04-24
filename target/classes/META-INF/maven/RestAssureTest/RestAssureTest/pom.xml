@@ -3,8 +3,6 @@
   <groupId>RestAssureTest</groupId>
   <artifactId>RestAssureTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  
   <build>
     <pluginManagement>
       <plugins>
@@ -62,13 +60,17 @@
 		 </dependency>	
 				
 					
-        <dependency>				
-            <groupId>org.testng</groupId>								
-            <artifactId>testng</artifactId>								
-            <version>7.6.1</version>								
-            <scope>test</scope>							  			
-       </dependency>
-      
+       
+      <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+    <scope>test</scope>
+</dependency>
+
+
     <!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
 <dependency>
     <groupId>com.github.scribejava</groupId>

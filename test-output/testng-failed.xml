@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testDemo.Demo_GET">
+      <class name="testDemo.Demo_methodusing_hashmap">
         <methods>
           <include name="GET_single_user"/>
+          <include name="GET_for_listusers"/>
+          <include name="DELETE"/>
+          <include name="PUT_user"/>
+          <include name="POST_user"/>
         </methods>
-      </class> <!-- testDemo.Demo_GET -->
+      </class> <!-- testDemo.Demo_methodusing_hashmap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

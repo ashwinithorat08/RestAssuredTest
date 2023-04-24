@@ -81,7 +81,7 @@ public class Demo_methodusing_hashmap {
 	{
 		
 		HashMap<String,String> data=new HashMap<String, String>();
-		data.put("name", "AshwiniThorat");
+		data.put("name", "Ashwini Rajendra Thorat");
 		data.put("job", "QA");
 		
 		id=given()
